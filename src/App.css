@@ -16,10 +16,16 @@
   justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: column;
+  transition: all 1s;
 }
 
 .Li-style img{
   border-radius: 50%;
+}
+.Li-style:hover{
+
+  box-shadow: 0 10px 15px rgba(0,0,0,.8);
+
 }
 
 ul{
